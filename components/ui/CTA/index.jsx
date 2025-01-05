@@ -20,10 +20,10 @@ const CTA = () => {
           </div>
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Figma Design Kit
+              10 Ebook website templates + Guide
             </h2>
             <p className="mt-3 text-gray-600 text-lg">
-              Get access to 100+ components, 15+ Landing pages & more in one
+              Get access to 10 components, 15+ Landing pages & more in one
               design kit on Figma!
             </p>
             <NavLink
@@ -34,8 +34,8 @@ const CTA = () => {
             </NavLink>
             <br />
             <span className="text-md font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ml-1">
-              SPECIAL 40% OFF{" "}
-              <span className="line-through text-black">$49</span> $29
+              SPECIAL 50% OFF{" "}
+              <span className="line-through text-black">$120</span> $60
             </span>
           </div>
         </div>

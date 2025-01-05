@@ -11,8 +11,8 @@ const Navbar = () => {
 
     const navigation = [
         { title: "Features", path: "#features" },
-        { title: "Our toolkit", path: "#toolkit" },
-        { title: "Testimonials", path: "#testimonials" },
+        { title: "Our package", path: "#toolkit" },
+        { title: "Use cases", path: "#testimonials" },
     ]
 
     useEffect(() => {
@@ -76,7 +76,7 @@ const Navbar = () => {
             href="https://buy.stripe.com/dR6bLR9Mg1vvcMweV7"
             className="text-white text-bold text-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-5 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:ring ring-transparent ring-offset-2 transition"
           >
-            $29 (one-time)
+            $60 (one-time)
             
           </NavLink>
           
