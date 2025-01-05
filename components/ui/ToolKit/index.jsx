@@ -56,18 +56,18 @@ const ToolKit = () => {
                     </p>
                     <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
           <NavLink
-            href="https://buy.stripe.com/dR6bLR9Mg1vvcMweV7"
+            href={process.env.NEXT_PUBLIC_STRIPE_PAY_LINK}
             className="text-white text-bold text-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:ring ring-transparent ring-offset-2 transition mb-5 mt-5"
           >
-            $29 (one-time)
+            $60 (one-time)
             
           </NavLink>
           
           
         </div>
         <span className="text-md font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-              SPECIAL 40% OFF{" "}
-              <span className="line-through text-white">$49</span> $29
+              SPECIAL 50% OFF{" "}
+              <span className="line-through text-white">$120</span> $60
             </span>
             <div className="flex-1 hidden sm:hidden lg: ml-10 lg:block hover:scale-[1.5] transition duration-700 ease-in-out bg-black text-black justify-center items-center align-center">
             <Image
