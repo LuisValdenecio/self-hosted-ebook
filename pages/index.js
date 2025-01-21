@@ -39,7 +39,7 @@ export default function Home() {
         <Features />
         <ToolKit />
       </GradientWrapper>
-      <Details />
+      {/*<Details />*/}
       {/*<FooterCTA />*/}
       <GradientWrapper>
         <Testimonials />

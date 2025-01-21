@@ -35,7 +35,7 @@ const Navbar = () => {
             <nav className={`bg-white w-full md:static md:text-sm ${state ? "fixed z-10 h-full" : ""}`}>
                 <div className="custom-screen items-center mx-auto md:flex">
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <Brand />
+                        <p className="font-bold text-2xl">📙 SelfHostedEbook</p>
                         <div className="md:hidden">
                             <button role="button" aria-label="Open the menu" className="text-gray-500 hover:text-gray-800"
                                 onClick={handleNavMenu}
@@ -71,16 +71,14 @@ const Navbar = () => {
                                 })
                             }
                             <li>
-                            <div className="flex items-center justify-center gap-x-3 font-medium text-sm mt-5">
-          <NavLink
-            href={process.env.NEXT_PUBLIC_STRIPE_PAY_LINK}
-            className="text-white text-bold text-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-5 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:ring ring-transparent ring-offset-2 transition"
-          >
-            $60 (one-time)
-            
-          </NavLink>
-          
-        </div>
+                                <div className="flex items-center justify-center gap-x-3 font-medium text-sm mt-5">
+                                    <NavLink
+                                        href={process.env.NEXT_PUBLIC_STRIPE_PAY_LINK}
+                                        className="text-white text-bold text-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-5 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:ring ring-transparent ring-offset-2 transition"
+                                    >
+                                        Do it now!
+                                    </NavLink>
+                                </div>
                             </li>
                         </ul>
                     </div>

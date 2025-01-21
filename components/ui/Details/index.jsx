@@ -1,5 +1,9 @@
 import React from "react";
+import Link from "next/link";
 import NavLink from "../NavLink";
+import Image from "next/image";
+import GradientWrapper from "../../GradientWrapper";
+import template_01 from '../../../public/template-01.png'
 
 function  Details() {
   return (
@@ -8,26 +12,32 @@ function  Details() {
         id="details"
         className="lg:max-h-[500px] flex flex-col sm:flex-row sm:overflow-hidden justify-center max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 p-12 rounded-2xl text-white"
       >
-        <iframe
-          className="w-full border: 1px solid rgba(0, 0, 0, 0.1); mr-4 lg:w-[500px] h-[400px] sm:w-[500px] h-[400px] border rounded-2xl sm:mb-0"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F3JNmDeIdKdLb2SUu7jwZkQ%2FDesignFast-%255BFigma-Library%255D%3Ftype%3Ddesign%26node-id%3D19%253A1905%26mode%3Ddesign%26t%3DYA658wRrzPSf0jVB-1"
-          allowfullscreen
-        ></iframe>
+        <Image
+          src={template_01}
+          height="400"
+          className="border blue"
+          width="500"
+        ></Image>
         <p className="text-black ml-4 mt-5">
-          <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-10">
-            🌟 Components
+          <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-2">
+          Template 01
+          </span>
+          <span className="mb-10 text-gray-500 text-lg">
+            Suited for Ebooks
           </span>
           <ul className="text-gray-500">
-            <li className="p-2">
-              Get better at designing components <br /> that converts
+           
+            <li className="pt-2 pb-2 pr-2">
+              ✔️ Step-by-Step Tutorials
             </li>
-            <li className="p-2">
-              ✔️ 150+ Figma design components to quickly build 1000+ <br />{" "}
-              landing pages
+            <li className="pt-2 pb-2 pr-2">✔️ Engaging Design</li>
+            <li className="pt-2 pb-2 pr-2">✔️ Responsice Design</li>
+            <li className="pt-2 pb-2 pr-2">✔️ Custom Branding</li>
+            <li className="pt-2 pb-2 pr-2 mt-4">
+              <Link href={"#"}>
+                See it live
+              </Link>
             </li>
-            <li className="p-2">✔️ Easy prototyping</li>
-            <li className="p-2">✔️ Animate your designs</li>
-            <li className="p-2">✔️ Pre-designed components</li>
           </ul>
         </p>
       </div>
@@ -47,20 +57,26 @@ function  Details() {
           className="lg:max-h-[500px] flex flex-col sm:flex-row sm:overflow-hidden justify-center max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8 p-12 rounded-2xl text-white mt-1"
         >
           <p className="text-black mr-5 mt-5">
-            <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-10">
-              🎨 Landing Pages
+            <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-2">
+              Template 02
             </span>
+        
             <ul className="text-gray-500">
-              <li className="p-2">
-                Build Intuitive Landing Pages {" "} <br />that converts
+              <li className="pt-2 pb-2 pr-2">
+                Our hosting kit is perfect for  {" "} <br />that converts
               </li>
-              <li className="p-2">
+              <li className="pt-2 pb-2 pr-2">
                 ✔️ 15+ Pre-designed {" "}
                 templates
               </li>
-              <li className="p-2">✔️ 100+ Landing Page Components</li>
-              <li className="p-2">✔️ Graphic elements to elevate your page</li>             
-              <li className="p-2">✔️ Easy to Edit</li>
+              <li className="pt-2 pb-2 pr-2">✔️ 100+ Landing Page Components</li>
+              <li className="pt-2 pb-2 pr-2">✔️ Graphic elements to elevate your page</li>             
+              <li className="pt-2 pb-2 pr-2">✔️ Easy to Edit</li>
+              <li className="pt-2 pb-2 pr-2 mt-4">
+              <Link href={"#"}>
+                See it live
+              </Link>
+            </li>
             </ul>
           </p>
           <iframe
@@ -84,21 +100,27 @@ function  Details() {
           allowfullscreen
         ></iframe>
         <p className="text-black ml-4 mt-5">
-          <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-10">
-            🌐 Web Apps
+          <span className="text-gray-800 text-3xl font-extrabold sm:text-4xl flex mb-2">
+              Template 03
+          </span>
+          <span className="mb-10 text-gray-500 text-lg">
+              Suited for templates 
           </span>
           <ul className="text-gray-500">
-            <li className="p-2">
-              Design web apps with good design <br /> & UX
-            </li>
-            <li className="p-2">✔️ 150+ Web App Components</li>
-            <li className="p-2">
-              ✔️ 10+ best-designed indie <br />{" "}
+           
+            <li className="pt-2 pb-2 pr-2">✔️ 150+ Web App Components</li>
+            <li className="pt-2 pb-2 pr-2">
+              ✔️ 10+ best-designed indie {" "}
               landing pages 
             </li>
             
-            <li className="p-2">✔️ simplified interfaces</li>
-            <li className="p-2">✔️ colors & better typeface</li>
+            <li className="pt-2 pb-2 pr-2">✔️ simplified interfaces</li>
+            <li className="pt-2 pb-2 pr-2">✔️ colors & better typeface</li>
+            <li className="pt-2 pb-2 pr-2 mt-4">
+              <Link href={"#"}>
+                See it live
+              </Link>
+            </li>
           </ul>
         </p>
       </div>

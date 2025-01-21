@@ -5,34 +5,34 @@ const Features = () => {
 
     const features = [
         {
-            icon: "🎨",
-            title: "Figma",
-            desc: "Get Fully Customizable Figma Designs"
+            icon: "💵",
+            title: "Stripe",
+            desc: "Connect your Stripe account to receive payments directly, bypassing middlemen and maximizing your revenue."
         },
         {
-            icon: "🌟",
-            title: "Landing Pages",
-            desc: "Get better at designing landing pages that convert"
+            icon: "📩",
+            title: "E-mail Automation",
+            desc: "Automatically send purchase confirmations and digital assets to your customers instantly after payment."
         },
         {
             icon: "🌐",
-            title: "Web Apps",
-            desc: "Design intuitive web apps with good design & UX"
+            title: "SEO Optimization",
+            desc: "Boost your website's visibility with built-in tools to help your digital assets rank higher on search engines."
         },
         {
-            icon: "🚀",
-            title: "Web UI Elements",
-            desc: "Building a web app? but having trouble coming up with flows?"
+            icon: "🛠️",
+            title: "3 Customizable Templates (and Counting)",
+            desc: "Easily customize three ready-made pages to showcase your digital products. Designed to grow with your needs."
         },
        {
-            icon: "🐧",
-            title: "Design Systems",
-            desc: "Create your own design system with pre-built templates"
+            icon: "📙",
+            title: "Setup Guide",
+            desc: "Step-by-step instructions to help you get your site up and running, no technical skills required."
         },
         {
-            icon: "😻",
-            title: "Product Hunt",
-            desc: "Launch your app on PH with pre-designed templates"
+            icon: "",
+            title: "Private Discord Server",
+            desc: "Join our community of creators for support, tips, and troubleshooting. We're here to help every step of the way."
         }
     ]
 
@@ -40,7 +40,7 @@ const Features = () => {
         <SectionWrapper>
             <div id="features" className="custom-screen text-gray-600 mt-20">
             <h2 className="text-gray-800 text-3xl font-extrabold sm:text-4xl justify-center flex mb-20">
-              Figma Design Kit                            
+            What's included in the kit?                       
             </h2>            
                 <ul className="grid gap-x-12 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
                     {

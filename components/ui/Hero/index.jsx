@@ -6,34 +6,30 @@ const Hero = () => (
       <div className="space-y-5 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl">
           <span className="relative">
-            Well-Designed 
+            10x 
             <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500"></span>
           </span>
-          {" "}Landing Pages{" "}         
-            For you Ebooks that {" "}
+          {" "}Your Sales{" "}         
+            by hosting your own {" "}
           <span className="relative">
-            Sell 🚀
+            Digital Assets 🚀
             <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> </span>
           </span>
         </h1>
 
-        <p className="max-w-xl mx-auto">
-          Be a pro at designing landing pages that convert. Get access to our
-          design kit with 100+ components, 15+ landing pages and 10+ full templates built in Figma.
+        <p className="max-w-xl text-xl mx-auto">
+         Whether you sell ebooks or any other digital asset, being able to self host your content can make an enormous financial difference. 
         </p>
         <div className="flex items-center justify-center gap-x-3 font-medium text-sm">
           <NavLink
-            href={process.env.NEXT_PUBLIC_STRIPE_PAY_LINK}
+            href="https://buy.stripe.com/dR6bLR9Mg1vvcMweV7"
             className="text-white text-bold text-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-5 hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover:ring ring-transparent ring-offset-2 transition"
           >
-            $60 (one-time)
-            
+            Do it now!
           </NavLink>
           
         </div>
-        <span className="text-md font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">
-            SPECIAL 50% OFF <span className="line-through text-black">$120</span>   $60 
-        </span>
+        
       </div>
     </div>
   </section>

@@ -1,6 +1,6 @@
 import SectionWrapper from "../../SectionWrapper";
 import NavLink from "../NavLink";
-import ctaImage from "../../../public/Cover.jpg";
+import ctaImage from "../../../public/hero.PNG";
 import Image from "next/image";
 
 const CTA = () => {
@@ -20,7 +20,7 @@ const CTA = () => {
           </div>
           <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
             <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              10 Ebook website templates + Guide
+              Ebook website templates + Guide
             </h2>
             <p className="mt-3 text-gray-600 text-lg">
               Get access to 10 components, 15+ Landing pages & more in one
@@ -30,12 +30,11 @@ const CTA = () => {
               href={process.env.NEXT_PUBLIC_STRIPE_PAY_LINK}
               className="inline-block mt-4 font-medium text-md text-white bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:bg-white active:bg-white hover:from-yellow-500 hover:via-red-500 hover:to-pink-500 hover: ring ring-transparent ring-offset-2 transition mb-2"
             >
-              $60 (one-time)
+              Do it now!
             </NavLink>
             <br />
             <span className="text-md font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ml-1">
-              SPECIAL 50% OFF{" "}
-              <span className="line-through text-black">$120</span> $60
+             KEEP YOUR PROFITS!!
             </span>
           </div>
         </div>
