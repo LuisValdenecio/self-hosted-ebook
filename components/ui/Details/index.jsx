@@ -16,6 +16,7 @@ function  Details() {
           src={template_01}
           height="400"
           className="border blue"
+          alt=""
           width="500"
         ></Image>
         <p className="text-black ml-4 mt-5">
